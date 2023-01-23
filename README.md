@@ -1,7 +1,7 @@
 # Pex
 > Projeto em Typescript, utilizando React
 
-![image](https://w7.pngwing.com/pngs/359/101/png-transparent-aperture-laboratories-science-technology-laboratory-portal-science-blue-text-computer-thumbnail.png) ![image](https://logospng.org/download/typescript/typescript-256.png)
+![image](https://logospng.org/download/react/logo-react-256.png) ![image](https://logospng.org/download/typescript/typescript-256.png)
 
 
 
