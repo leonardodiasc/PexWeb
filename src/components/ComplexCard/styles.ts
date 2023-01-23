@@ -47,11 +47,24 @@ export const SubTitle = styled.td`
         color: #2B3674;
         padding: 10px 0px;
 `
-
-export const Line  = styled.div`
-    border: 1px solid #E9EDF7;
-    max-width: 470px;
+export const Container = styled.div`
+    position: relative;
     width: 100%;
+    height: 100%;
+`
+export const Line  = styled.div`
     position: absolute;
-    left: 320px;
+    left: 0;
+    right: 20;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #E9EDF7;
+    z-index: 1;
+`
+
+
+export const ComplexBox  = styled.div`
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
 `

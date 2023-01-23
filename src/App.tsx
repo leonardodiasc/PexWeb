@@ -12,7 +12,7 @@ import { ClientBox } from "./components/ClientCard/styles"
 import { BalanceCard } from "./components/BalanceCard"
 import { BalanceBox } from "./components/BalanceCard/styles"
 import { ComplexCard } from "./components/ComplexCard"
-
+import { ComplexBox } from "./components/ComplexCard/styles"
 function App() {
  return(
   <>
@@ -43,8 +43,11 @@ function App() {
         <BalanceCard number="42.021" text="Cotações não concluídas" percentage="+15,3%(+223)" ></BalanceCard>
         <BalanceCard number="3.122" text="Cotações não respondidas" percentage="+15,3%(+223)" ></BalanceCard>
       </BalanceBox>
-
-      <ComplexCard />
+      <ComplexBox>
+        <ComplexCard mainTitle="Planos" mainSubtitle="123 planos ativos" subtitleOne="Estagiários" subtitleTwo="Diretoria" subtitleThree="Geral" subtitleFour="Almoxarifado"/>
+        <ComplexCard mainTitle="Categorias" mainSubtitle="4 categorias em uso" subtitleOne="6 vendas" subtitleTwo="12 vendas" subtitleThree="24 vendas" subtitleFour="Personalizado"/>
+        <ComplexCard mainTitle="Tipos de planos" mainSubtitle="2 tipos em uso" subtitleOne="Construtores" subtitleTwo="Clientes finais" subtitleThree="" subtitleFour=""/>
+      </ComplexBox>
       
     </main>
   </>

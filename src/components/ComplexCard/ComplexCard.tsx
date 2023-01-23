@@ -1,11 +1,21 @@
 import * as S from './styles'
 
-export function ComplexCard() {
+interface ComplexProps{
+    mainTitle?: String,
+    mainSubtitle?:String,
+    subtitleOne?: String,
+    subtitleTwo?: String,
+    subtitleThree?: String,
+    subtitleFour?: String
+}
+
+export function ComplexCard({mainTitle,mainSubtitle,subtitleOne,subtitleTwo,subtitleThree,subtitleFour}:ComplexProps) {
     return(
     <>
+        <S.Container>
         <S.ComplexCard>
-            <S.Text>Planos</S.Text>
-            <S.SubText>23 planos ativos</S.SubText>
+            <S.Text>{mainTitle}</S.Text>
+            <S.SubText>{mainSubtitle}</S.SubText>
             <S.Table>
             <S.Tr>
                 <S.Title>CLUBE</S.Title>
@@ -14,27 +24,28 @@ export function ComplexCard() {
             </S.Tr>
             <S.Line/>
             <S.Tr>
-                <S.SubTitle>Estagiários</S.SubTitle>
+                <S.SubTitle>{subtitleOne}</S.SubTitle>
                 <S.SubTitle>312 clientes</S.SubTitle>
                 <S.SubTitle>R$ 123,90</S.SubTitle>
             </S.Tr>
             <S.Tr>
-                <S.SubTitle>Diretoria</S.SubTitle>
+                <S.SubTitle>{subtitleTwo}</S.SubTitle>
                 <S.SubTitle>312 clientes</S.SubTitle>
                 <S.SubTitle>R$ 123,90</S.SubTitle>
             </S.Tr>
             <S.Tr>
-                <S.SubTitle>Geral</S.SubTitle>
+                <S.SubTitle>{subtitleThree}</S.SubTitle>
                 <S.SubTitle>312 clientes</S.SubTitle>
                 <S.SubTitle>R$ 123,90</S.SubTitle>
             </S.Tr>
             <S.Tr>
-                <S.SubTitle>Almoxarifado</S.SubTitle>
+                <S.SubTitle>{subtitleFour}</S.SubTitle>
                 <S.SubTitle>312 clientes</S.SubTitle>
                 <S.SubTitle>R$ 123,90</S.SubTitle>
             </S.Tr>
             </S.Table>
         </S.ComplexCard>
+        </S.Container>
     </>
     )
 }
