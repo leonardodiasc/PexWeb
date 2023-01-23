@@ -29,7 +29,7 @@ export function NavBar() {
             <SearchBar>
                 <BoxSearch> 
                     <SearchIcon src={searchIcon}/>
-                    <InputSearch />
+                    <InputSearch placeholder='Busca'/>
                 </BoxSearch>
 
             <BoxProfile>

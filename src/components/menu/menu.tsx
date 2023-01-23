@@ -1,4 +1,4 @@
-import { MenuCss } from "./menustyle";
+import { MenuBox, MenuCss } from "./menustyle";
 import logopex from "../../assets/menu/logo-pex.png"
 import dashboard from "../../assets/menu/dashboard.png"
 import carrinho from "../../assets/menu/carrinho.png"
@@ -8,6 +8,7 @@ import barrinhas from "../../assets/menu/barrinhas.png"
 
 export function Menu(){
     return(
+        <MenuBox>
         <MenuCss>
             <header>
                     <div className="logo">
@@ -39,5 +40,6 @@ export function Menu(){
                     </div>
             </header>
         </MenuCss>
+        </MenuBox>
     )
 }

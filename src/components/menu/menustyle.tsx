@@ -3,18 +3,18 @@ import styled from "styled-components";
 export const MenuCss = styled.div`
  
 
- header{
+header{
    width: 290px;
-   height: 100vh;
-
+   height: 1300px;
    display: flex;
    flex-direction: column;
    background-color: #FFF;
    font-family: 'DM sans';
  }
+
  .logo{
    width: 100%;
-   height: 20%;
+   height: 10%;
    padding: 20px;
    border-bottom: 1px solid #F4F7FE;
 
@@ -50,4 +50,6 @@ export const MenuCss = styled.div`
  }
 
 `;
- 
+export const MenuBox = styled.div`
+   position:relative;
+`

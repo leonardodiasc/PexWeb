@@ -16,9 +16,9 @@ import { ComplexBox } from "./components/ComplexCard/styles"
 function App() {
  return(
   <>
+    <Menu/>
     <GlobalStyled/>
     <header>
-      <Menu/>
     </header>
     <main>      
       <NavBar />

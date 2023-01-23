@@ -58,6 +58,10 @@ export const InputSearch = styled.input`
     margin: 0;
     height: 38px;
     border-radius: 0px 49px 49px 0px;
+    ::placeholder {
+        color:#8F9BBA;
+        ;
+    }   
 `
 export const BoxProfile = styled.div`
     display:flex;
