@@ -22,7 +22,8 @@ O software foi construído utilizando TypeScript e React, usando também styled 
 
 Tendo Node.Js e o NPM instalados na máquina, rode os seguintes comandos:
 
-npm install
-npm run dev
-
+```
+- npm install
+- npm run dev
+```
 e pronto, estará rodando na url especificada.
