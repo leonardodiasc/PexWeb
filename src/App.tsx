@@ -46,7 +46,7 @@ function App() {
       <ComplexBox>
         <ComplexCard mainTitle="Planos" mainSubtitle="123 planos ativos" subtitleOne="Estagiários" subtitleTwo="Diretoria" subtitleThree="Geral" subtitleFour="Almoxarifado"/>
         <ComplexCard mainTitle="Categorias" mainSubtitle="4 categorias em uso" subtitleOne="6 vendas" subtitleTwo="12 vendas" subtitleThree="24 vendas" subtitleFour="Personalizado"/>
-        <ComplexCard mainTitle="Tipos de planos" mainSubtitle="2 tipos em uso" subtitleOne="Construtores" subtitleTwo="Clientes finais" subtitleThree="" subtitleFour=""/>
+        <ComplexCard mainTitle="Tipos de planos" mainSubtitle="2 tipos em uso" subtitleOne="Construtores" subtitleTwo="Clientes finais" subtitleThree="" subtitleFour="" middleTitleThree="" middleTitleFour="" farrightTitleThree="" farrightTitleFour=""/>
       </ComplexBox>
       
     </main>

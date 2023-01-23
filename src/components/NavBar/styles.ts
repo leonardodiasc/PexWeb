@@ -30,6 +30,7 @@ export const Title = styled.h3`
 export const SearchBar = styled.div`
     max-width: 422px;
     background: #FFFFFF;
+    margin-left: 630px;
     padding: 4px 8px;
     box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
     border-radius: 30px;

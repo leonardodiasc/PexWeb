@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const DateFilter  = styled.div`
-    max-width: 500px;
+    max-width: 644px;
+    height:55px;
     background: #FFFFFF;
     padding: 4px 8px;
     box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
@@ -21,7 +22,7 @@ export const BoxSearch = styled.div`
 `
 
 export const Title = styled.p`
-    font-size: 10px;
+    font-size: 14px;
     color: #707EAE;
     font-weight: 500;
 `

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ComplexCard = styled.div` 
-        max-width: 470px;
+        width: 516px;
         height: 351px;
         background: #FFFFFF;
         border-radius: 20px;
@@ -56,7 +56,7 @@ export const Line  = styled.div`
     position: absolute;
     left: 0;
     right: 20;
-    width: 90%;
+    width: 95.5%;
     margin: 0 auto;
     border: 1px solid #E9EDF7;
     z-index: 1;
@@ -65,6 +65,5 @@ export const Line  = styled.div`
 
 export const ComplexBox  = styled.div`
         display: flex;
-        margin-top: 20px;
-        gap: 20px;
+        margin: 20px 0px 0px 0px;
 `
