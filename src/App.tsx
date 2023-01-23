@@ -2,13 +2,16 @@ import GlobalStyled from "./GlobalStyled"
 import { Menu } from "./components/menu/menu"
 import { NavBar } from "./components/NavBar"
 import { FilterDate } from "./components/FilterDate"
-import { FinancialCard } from "./components/FinancialCard"
 import { FinancialBox } from "./components/FinancialCard/styles"
+import { FinancialCard } from "./components/FinancialCard"
 import mAzul from './assets/mazul.png'
 import mVerde from './assets/mverde.png'
 import mVermelho from './assets/mvermelho.png'
 import { ClientCard } from "./components/ClientCard"
 import { ClientBox } from "./components/ClientCard/styles"
+import { BalanceCard } from "./components/BalanceCard"
+import { BalanceBox } from "./components/BalanceCard/styles"
+import { ComplexCard } from "./components/ComplexCard"
 
 function App() {
  return(
@@ -34,6 +37,14 @@ function App() {
         <ClientCard lessThanZero={false} percentage="+42,6% (+3)" number="24,3%" title="Turnover" />
         <ClientCard  lessThanZero={false} percentage="+32,6% (+6)" number="54,42%" title="Turnover recuperado" />
       </ClientBox>
+      <BalanceBox>
+        <BalanceCard number="312.321" text="Cotações realizadas" percentage="+15,3%(+223)" ></BalanceCard>
+        <BalanceCard number="212.012" text="Vendas finalizadas" percentage="+15,3%(+223)" ></BalanceCard>
+        <BalanceCard number="42.021" text="Cotações não concluídas" percentage="+15,3%(+223)" ></BalanceCard>
+        <BalanceCard number="3.122" text="Cotações não respondidas" percentage="+15,3%(+223)" ></BalanceCard>
+      </BalanceBox>
+
+      <ComplexCard />
       
     </main>
   </>

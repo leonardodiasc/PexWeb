@@ -13,7 +13,7 @@ export function ClientCard({title, number, percentage, lessThanZero}: ClientCard
         <S.ClientCard>
             <S.TextTitle>{title}</S.TextTitle>
             <S.Number>{number}</S.Number>
-            <S.Percentage lessThanZero={lessThanZero} >{percentage}</S.Percentage>
+            <S.Percentage lessThanZero={lessThanZero}>{percentage}</S.Percentage>
         </S.ClientCard>
     </>)
 }
